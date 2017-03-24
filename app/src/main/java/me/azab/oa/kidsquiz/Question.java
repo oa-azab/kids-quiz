@@ -73,9 +73,15 @@ public class Question {
     public static List<Question> getQuestions(){
         List<Question> mList = new ArrayList<>();
 
-        mList.add(new Question(Type.TEXT,"type name of the animal",R.drawable.lion,new String[]{""},new String[]{"lion"}));
-        mList.add(new Question(Type.RADIO,"type name of the animal",R.drawable.lion,new String[]{"lion","monkey","whale","bird"},new String[]{"lion"}));
-        mList.add(new Question(Type.CHECK,"type name of the animal",R.drawable.lion,new String[]{"lion","monkey","whale","bird"},new String[]{"lion","bird"}));
+        mList.add(new Question(Type.TEXT,"Type name of the animal",R.drawable.lion,new String[]{""},new String[]{"lion"}));
+        mList.add(new Question(Type.RADIO,"What is the name of the animal",R.drawable.lion,new String[]{"lion","monkey","whale","bird"},new String[]{"lion"}));
+        mList.add(new Question(Type.CHECK,"Choose the animals in the picture",R.drawable.catanddog,new String[]{"dog","monkey","lion","cat"},new String[]{"cat","dog"}));
+        mList.add(new Question(Type.TEXT,"Type name of the animal",R.drawable.giraffe,new String[]{""},new String[]{"giraffe"}));
+        mList.add(new Question(Type.RADIO,"What is the name of the animal",R.drawable.dog,new String[]{"lion","monkey","giraffe","dog"},new String[]{"dog"}));
+        mList.add(new Question(Type.CHECK,"Choose the animals in the picture",R.drawable.giraffeandelephant,new String[]{"dog","giraffe","lion","elephant"},new String[]{"giraffe","elephant"}));
+        mList.add(new Question(Type.TEXT,"Type name of the animal",R.drawable.dog,new String[]{""},new String[]{"dog"}));
+        mList.add(new Question(Type.RADIO,"What is the name of the animal",R.drawable.elephant,new String[]{"elephant","monkey","giraffe","dog"},new String[]{"elephant"}));
+        mList.add(new Question(Type.CHECK,"Choose the animals in the picture",R.drawable.monkeyandlion,new String[]{"dog","monkey","lion","elephant"},new String[]{"monkey","lion"}));
 
         return mList;
     }
