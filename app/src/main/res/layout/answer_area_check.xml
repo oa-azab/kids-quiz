@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableRow>
+
+        <CheckBox
+            android:id="@+id/checkbox_1"
+            android:layout_weight="1"
+            android:paddingLeft="16dp"
+            android:text="answer 1" />
+
+        <CheckBox
+            android:id="@+id/checkbox_2"
+            android:layout_weight="1"
+            android:paddingLeft="16dp"
+            android:text="answer 2" />
+    </TableRow>
+
+    <TableRow>
+
+        <CheckBox
+            android:id="@+id/checkbox_3"
+            android:layout_weight="1"
+            android:paddingLeft="16dp"
+            android:text="answer 1" />
+
+        <CheckBox
+            android:id="@+id/checkbox_4"
+            android:layout_weight="1"
+            android:paddingLeft="16dp"
+            android:text="answer 2" />
+    </TableRow>
+
+</TableLayout>
